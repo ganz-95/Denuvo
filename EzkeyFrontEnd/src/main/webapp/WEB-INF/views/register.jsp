@@ -7,13 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-
-<form action="validate">
-User ID:<input type="text" name="userID">
-Password:<input type="password" name="password">
-
-<input type="submit" value="login">
-</form> 
+This is registration page
 </body>
 </html>
