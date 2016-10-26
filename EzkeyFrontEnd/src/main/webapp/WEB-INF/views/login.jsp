@@ -183,14 +183,15 @@ footer a, footer a:link {
   <body>
 
     <div class="wrapper">
-  <form class="login">
+  <form class="login" action="validate" target="Ezkey">
+  
     <p class="title">Log in</p>
-    <input type="text" placeholder="Username" autofocus/>
+    <input type="text" name="userID" placeholder="Username" autofocus/>
     <i class="fa fa-user"></i>
-    <input type="password" placeholder="Password" />
+    <input type="password" name="password" placeholder="Password" />
     <i class="fa fa-key"></i>
     <a href="#">Forgot your password?</a>
-    <button>
+    <button id="Ezkey">
       <i class="spinner"></i>
       <span class="state">Log in</span>
     </button>

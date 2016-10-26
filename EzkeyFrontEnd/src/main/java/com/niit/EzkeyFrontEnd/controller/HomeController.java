@@ -44,7 +44,7 @@ public class HomeController {
 	public String login(Model model)
 	{
 		model.addAttribute("userClickedLogin","true");
-		return "login";
+		return "index";
 	}
 	@RequestMapping("/register")
 	public String register(Model model)
