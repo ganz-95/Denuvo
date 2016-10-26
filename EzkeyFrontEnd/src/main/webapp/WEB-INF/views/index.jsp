@@ -9,16 +9,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-
 <body>
 <h2><center>Ezkey</center></h2>
-
-Existing user <a href="Login">login here</a>
-<br>
-New user: <a href="Register">register here</a>
-
-<hr>
-
+<jsp:include page="header.jsp"></jsp:include>
 <c:if test="${userClickedLogin}">
 <jsp:include page="login.jsp"></jsp:include>
 </c:if>
@@ -27,6 +20,6 @@ New user: <a href="Register">register here</a>
 </c:if>
 <c:out value="${Success}"/>
 <c:out value="${Error}"/>
-
+${registerMessage}
 </body>
 </html>

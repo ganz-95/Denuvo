@@ -13,6 +13,18 @@ public class HomeController {
 	{
 		return "index";
 	}
+	@RequestMapping("/registeration")
+	public String registeration(Model m){
+		m.addAttribute("registerMessage","Successfully Registered");
+		return "index";
+	}
+	@RequestMapping("/Register")
+	public String Register(Model m)
+	{
+		m.addAttribute("userClickedregister" , "registered again");
+		return "index";
+	}
+	
 	@RequestMapping("/validate")
 
 	public String validate(@RequestParam(name="userID")String id, @RequestParam("password") String pwd,Model model)
@@ -28,13 +40,13 @@ public class HomeController {
 			return "index";
 		}
 	}
-	@RequestMapping("/Login")
+	@RequestMapping("/login")
 	public String login(Model model)
 	{
 		model.addAttribute("userClickedLogin","true");
 		return "login";
 	}
-	@RequestMapping("/Register")
+	@RequestMapping("/register")
 	public String register(Model model)
 	{
 		model.addAttribute("userClickedRegister","true");
