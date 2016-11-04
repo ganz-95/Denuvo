@@ -48,7 +48,7 @@ carousel-inner>.item>img, .carousel-inner>.item>a>img {
 				</div>
 
 				<div class="item">
-					<img src="" alt="Sofa"
+					<img src="C:\Users\Bala\workspace\Denuvo\src\main\webapp\resources\images\Screenshot (4)(1).png" 
 						width="460" height="345">
 					<div class="carousel-caption">
 					
@@ -56,24 +56,7 @@ carousel-inner>.item>img, .carousel-inner>.item>a>img {
 					</div>
 				</div>
 
-				<div class="item">
-					<img src="C:\Users\Harsha\Desktop\Sofa\Camelback-sofa.jpg" 
-						width="460" height="345">
-					<div class="carousel-caption">
-					
-
-					</div>
-				</div>
-
-				<div class="item">
-					<img src="C:\Users\Harsha\Desktop\Sofa\Cabriole-Sofa.jpg" alt="Sofa"
-						width="460" height="345">
-					<div class="carousel-caption">
-						
-
-					</div>
-				</div>
-
+				
 			</div>
 
 			<!-- Left and right controls -->

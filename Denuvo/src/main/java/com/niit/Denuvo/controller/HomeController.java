@@ -46,9 +46,7 @@
 			return "registration";
 		}
 		@RequestMapping("/home")
-		public String home(Model model)
-		{
-			model.addAttribute("carosel","true");
+		public String carousal(){
 			return "index";
 	}
 	}
