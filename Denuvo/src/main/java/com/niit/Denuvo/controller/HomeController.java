@@ -49,4 +49,15 @@
 		public String carousal(){
 			return "index";
 	}
+		@RequestMapping("/contact")
+		public String contact()
+		{
+			return "contact";
+		}
+		@RequestMapping("/us")
+		public String us()
+		{
+			return "us";
+		}
+		
 	}
