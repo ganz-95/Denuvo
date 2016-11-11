@@ -682,12 +682,10 @@
 				<h3><span>Denuvo</span></h3>
 
 				<p class="footer-links">
-					<a href="header">Home</a>
+					<a href="carousal">Home</a>
 					·
-					<a href="#">Blog</a>
-					·
-					<a href="#">Pricing</a>
-					·
+					
+					
 					<a href="us">About</a>
 					·				
 					<a href="contact">Contact</a>

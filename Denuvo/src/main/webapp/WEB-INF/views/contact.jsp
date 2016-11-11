@@ -1,247 +1,195 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<!DOCTYPE html>
 <html>
 <head>
 <style>
-@CHARSET "ISO-8859-1";
-@import "compass/css3";
+<body>
+.jumbotron
+ {
 
-// Font imports
+background: #358CCE;
 
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+color: #FFF;
 
-// Color vars
+border-radius: 0px;
 
-$white: #fff;
-$grey: #ccc;
-$dark_grey: #555;
-$blue: #4f6fad;
-$pink: #ee9cb4;
-
-// Mixins
-
-@mixin lato-book { font-family: 'Lato', sans-serif; font-weight: 300; }
-@mixin lato-reg { font-family: 'Lato', sans-serif; font-weight: 400; }
-@mixin lato-bold { font-family: 'Lato', sans-serif; font-weight: 700; }
-@mixin btn($color) {
-  background-color: $color;
-  border-bottom-color: darken($color, 15%);
-  &:hover {
-      background-color: lighten($color, 5%);
-    }
 }
 
-// Functions
+.jumbotron-sm
+ {
+ padding-top: 24px;
 
-@function pxtoem($target, $context){
-  @return ($target/$context)+0em;
-}
+padding-bottom: 24px;
+ }
 
-//
+.jumbotron small 
+{
 
-body {
-  background-color: lighten($grey, 10%);
-  font-size: 100%;
-  @include lato-reg;
-}
-div, textarea, input {
-  @include box-sizing(border-box); 
-}  
-.container {  
-  max-width: 510px;
-  min-width: 324px;
-  margin: 50px auto 0px;
-  background-color: $white;
-  border: 1px solid lighten($grey, 1%); 
-  border-bottom: 3px solid $grey;
-}
-.row {
-  width: 100%;
-  margin: 0 0 1em 0;
-  padding: 0 2.5em;
-  &.header {
-    padding: 1.5em 2.5em;
-    border-bottom: 1px solid $grey; 
-    background: url(http://niiiick.com/files/blur-city-1.jpg) left -80px;
-    color: $white;
-  }
-  &.body {
-    padding: .5em 2.5em 1em;
-  }
-}
-.pull-right {
-  float: right; 
-}
-h1 {
-  @include lato-book;
-  display: inline-block;
-  font-weight: 100;
-  font-size: pxtoem(45, 16);
-  border-bottom: 1px solid hsla(100%, 100%, 100%, 0.3);
-  margin: 0 0 0.1em 0;
-  padding: 0 0 0.4em 0;
-}
-h3 {
-  @include lato-reg;
-  font-size: pxtoem(20, 16);
-  margin: 1em 0 0.4em 0;
-}
-.btn {
-  font-size: pxtoem(17, 16);
-  display: inline-block;
-  padding: 0.74em 1.5em;
-  margin: 1.5em 0 0;
-  color: $white;
-  border-width: 0 0 0 0;
-  border-bottom: 5px solid;
-  text-transform: uppercase;
-  @include btn(darken($grey, 10%));
-  @include lato-book;
-  &.btn-submit {
-    @include btn($blue);
-  }
+color: #FFF;
+
 }
 
-form {
-  max-width: 100%;
-  display: block;
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    li {
-      margin: 0 0 0.25em 0; 
-      clear: both;
-      display: inline-block;
-      width: 100%;
-      &:last-child {
-          margin: 0;    
-        }
-        p {
-          margin: 0;
-          padding: 0;
-          float: left;
-          &.right {
-            float: right;
-          }
-        }     
-        .divider {
-          margin: 0.5em 0 0.5em 0;
-          border: 0;
-          height: 1px;
-          width: 100%;
-          display: block;
-          background-color: $blue;
-          background-image: linear-gradient(to right, $pink, $blue);
-        }
-        .req {
-          color: $pink; 
-        }
-    }
-  }
-  label {
-    display: block;
-    margin: 0 0 0.5em 0;
-    color: $blue;
-    font-size: pxtoem(16, 16);
-  }
-  input {
-    margin: 0 0 0.5em 0;
-    border: 1px solid $grey;
-    padding: 6px 10px;
-    color: $dark_grey;
-    font-size: pxtoem(16, 16);
-  }
-  textarea {
-    border: 1px solid $grey;
-    padding: 6px 10px;
-    width: 100%;
-    color: $dark_grey;
-  }
-  small {
-    color: $blue;
-    margin: 0 0 0 0.5em;
-  }
-}
+.h1 small 
+{
 
-// Media Queries
+font-size: 24px;
 
-@media only screen and (max-width:480px) {
-  .pull-right {
-    float: none; 
-  }
-  input {
-    width: 100%; 
-  }
-  label {
-    width: 100%;
-    display: inline-block;
-    float: left;
-    clear: both;
-  }
-  li, p {
-   width: 100%; 
-  }
-  input.btn {
-   margin: 1.5em 0 0.5em; 
-  }
-  h1 {
-   font-size: pxtoem(36, 16); 
-  }
-  h3 {
-    font-size: pxtoem(18, 16)
-  }
-  li small {
-   display: none; 
-  }
-}</style>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+ss}
+
+
+
+</style>
 </head>
+</body>
+</html>
+
+
+<html lang="en">
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body> 
+
+
+
+<!DOCTYPE html>
+<html>
 <body>
 
+<div class="jumbotron jumbotron-sm">
+
 <div class="container">
-  <div class="row header">
-    <h1>CONTACT US &nbsp;</h1>
-    <h3>Fill out the form below to learn more!</h3>
-  </div>
-  <div class="row body">
-    <form action="#">
-      <ul>
-        
-        <li>
-          <p class="left">
-            <label for="first_name">first name</label>
-            <input type="text" name="first_name" placeholder="John" />
-          </p>
-          <p class="pull-right">
-            <label for="last_name">last name</label>
-            <input type="text" name="last_name" placeholder="Smith" />      
-          </p>
-        </li>
-        
-        <li>
-          <p>
-            <label for="email">email <span class="req">*</span></label>
-            <input type="email" name="email" placeholder="john.smith@gmail.com" />
-          </p>
-        </li>        
-        <li><div class="divider"></div></li>
-        <li>
-          <label for="comments">comments</label>
-          <textarea cols="46" rows="3" name="comments"></textarea>
-        </li>
-        
-        <li>
-          <input class="btn btn-submit" type="submit" value="Submit" />
-          <small>or press <strong>enter</strong></small>
-        </li>
-        
-      </ul>
-    </form>  
-  </div>
+
+  <div class="row">
+
+     <div class="col-sm-12 col-lg-12">
+
+    <h1 class="h1">
+
+  Contact us <small>Feel free to contact us</small></h1>
+
+            </div>
+        </div>
+    </div>
 </div>
+
+<div class="container">
+
+    <div class="row">
+
+     <div class="col-md-8">
+     
+       <div class="well well-sm">
+
+                <form>
+           
+     <div class="row">
+    
+                <div class="col-md-6">
+ 
+ <div class="form-group">
+     
+<label for="name">
+    Name</label>
+
+<input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+
+
+ </div>
+
+<div class="form-group">
+ 
+ <label for="email">
+  Email Address</label>
+  
+ <div class="input-group">
+      <span class="input-group-addon">
+<span class="glyphicon glyphicon-envelope">
+</span>
+        
+                       
+ </span>
+            
+ 
+<input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+</div>
+  
+     </div>
+      <div class="form-group">
+    
+<label for="subject">
+Subject</label>
+  <select id="subject" name="subject" class="form-control" required="required">
+         
+                      <option value="na" selected="">Choose One:</option>
+<option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+    
+                </div>
+                </div>
+   
+            </form>
+      
+      </div>
+        </div>
+      
+  <div class="col-md-4">
+    
+        <form>
+        
+    <legend><span class="glyphicon glyphicon-globe"></span>Our office</legend>
+     
+    <address><strong>Twitter, Inc.</strong><br>
+  
+              
+21 Revolution Street<br>
+Paris, France
+              
+         <abbr title="Phone">
+    
+               P:</abbr>
+               <br>
+         
+       +1 555 123456
+       
+    </address>
+        
+    <address>
+       
+         <strong>Full Name</strong><br>
+     
+           <a href="mailto:#">support@gmail.com</a>
+
+            </address>
+ 
+           </form>
+ 
+       </div>
+    </div>
+</div>
+
 
 </body>
 </html>
+
+

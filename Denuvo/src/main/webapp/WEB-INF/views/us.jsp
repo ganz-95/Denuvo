@@ -3,13 +3,21 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<style>
+ body {
+  background: url("http://imgur.com/gallery/9rnAH") 50% fixed;
+  background-size: cover;
+}
+</style>
 </head>
+
 <body>
+
+
 <div id="content-full">
 
 <div class="sitetext">
-<h1>About FileHippo.com</h1>
+<h1>About Denuvo</h1>
 
 <div style="padding: 13px 0px 13px 0px;">
 <b>Purpose</b>

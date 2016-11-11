@@ -59,5 +59,15 @@
 		{
 			return "us";
 		}
+		@RequestMapping("/carousal")
+		public String Home()
+		{
+			return "carousal";
+		}
+		@RequestMapping("/microsoft")
+		public String microsoft()
+		{
+			return "microsoft";
+		}
 		
 	}

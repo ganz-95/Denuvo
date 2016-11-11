@@ -54,6 +54,10 @@ carousel-inner>.item>img, .carousel-inner>.item>a>img {
 					
 
 					</div>
+					</div>
+					
+					
+					
 				</div>
 
 				
@@ -71,6 +75,8 @@ carousel-inner>.item>img, .carousel-inner>.item>a>img {
 			</a>
 		</div>
 	</div>
+	<br> <br>
+	<jsp:include page="thumbnails.jsp"></jsp:include>
 
 </body>
 </html>
